@@ -1,0 +1,27 @@
+{
+  "name": "renameMe",
+  "version": "0.0.1",
+  "description": "",
+  "main": "renameMe.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec --bail --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devleague/renameMe"
+  },
+  "author": "Dev League LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devleague/renameMe/issues"
+  },
+  "homepage": "https://github.com/devleague/renameMe",
+  "dependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4",
+    "sinon": "^1.14.1"
+  }
+}
